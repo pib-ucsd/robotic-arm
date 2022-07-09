@@ -58,7 +58,7 @@
 > ### **Implementing Inverse Kinematics in Code**
 > The following function can be used to calculate the inverse kinematics of a two joint system
 >
-> **Note:** Please refer to how the shoulder and elbow joints/limbs are defined in the concepts section
+> **Note:** Please refer to how the shoulder and forearm joints/limbs are defined in the concepts section
 
     float inverseKinematics(float x, float y, bool isShoulder) {
         double cb = (-sq(SHOULDER_LENGTH) - sq(FOREARM_LENGTH) + sq(x) + sq(y)) / (2 * (SHOULDER_LENGTH) * (FOREARM_LENGTH));
