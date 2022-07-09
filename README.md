@@ -35,7 +35,7 @@
         Wire.begin();
         mpu.begin();
 
-        // Calculate offsets to more accurately determine absolute MPU6050 
+        // Calculate offsets to more accurately determine absolute MPU6050 angles
         mpu.calcGyroOffsets();
     }
 
@@ -110,4 +110,4 @@
 > [Press Buttons to Move Servos on WOKWI](https://wokwi.com/projects/335575481692717652)
 
 ## [**FULL CODE**](https://wokwi.com/projects/335575481692717652)
-The full code necessary for this project is linked above and is accompanied by the circuitry to simulate this project on WOKWI.
+The full code necessary for this project is linked in `FULL CODE` heading above and is accompanied by the circuitry to simulate this project on WOKWI.
