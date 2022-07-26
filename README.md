@@ -2,10 +2,12 @@
 
 
 ## **PART 1: CONCEPTS**
-### Inverse Kinematics
 
+### Inverse Kinematics
 ### Circuits
 ### MPU6050
+### PWM
+### I2C
 
 ## **PART 2: SYSTEM DESIGN**
 
@@ -107,7 +109,7 @@ Assuming that the servos (if applicable) are properly calibrated, the FS90R cont
 
 In this project, we chose to use buttons to control the servos to move in either direction. The following link contains the addition of the continous servo controlled by two additional buttons and is the full code necessary for this project.
 
-[Press Buttons to Move Servos on WOKWI](https://wokwi.com/projects/335575481692717652)
+[Press Buttons to Move Servos on WOKWI](https://wokwi.com/projects/337906127494709842)
 
 ## [**FULL CODE**](https://wokwi.com/projects/335575481692717652)
 The full code necessary for this project is linked in `FULL CODE` heading above and is accompanied by the circuitry to simulate this project on WOKWI.
