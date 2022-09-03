@@ -54,7 +54,7 @@ unsigned long timer = 0;
 
 void setup() {
   // GENERAL SETUP (pinModes and attachments)
-  Serial.begin(9600);
+  //Serial.begin(9600);
   pinMode(CALIBRATING_LED, OUTPUT);
   pinMode(RESET_BUTTON, INPUT_PULLUP);
   pinMode(RIGHT_BUTTON, INPUT_PULLUP);
@@ -83,7 +83,7 @@ void loop() {
   controlArm();
   controlGripper();
   controlCart();
-  printData();
+  //printData();
 }
 
 // CALL ON CALIBRATE METHOD FROM MPU LIBRARY
