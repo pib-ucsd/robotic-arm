@@ -1,5 +1,7 @@
 # Robotic Arm
 
+![assembly](images/assembly.png)
+
 
 ## **PART 1: CONCEPTS**
 
