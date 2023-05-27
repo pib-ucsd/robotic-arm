@@ -1,5 +1,7 @@
 # Robotic Arm
 
+[Digikey maker.io post](https://www.digikey.com/en/maker/projects/imu-controlled-robotic-arm/dca293df2101494c9f19a29ab794fec4)
+
 ![assembly](images/assembly.png)
 
 
